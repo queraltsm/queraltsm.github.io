@@ -1,7 +1,7 @@
 function Home() {
     return (
       <>
-        <img src="./src/assets/profile.jpg" alt="Queralt Sosa Mompel" className="profile-pic" />
+        <img src="/src/assets/profile.jpg" alt="Queralt Sosa Mompel" className="profile-pic" />
         <br />
         <p className="description">
           My name is Queralt Sosa Mompel. Welcome to my world. In few words I develop software.
