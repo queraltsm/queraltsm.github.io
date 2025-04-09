@@ -130,49 +130,47 @@ h1 {
     margin-top: 10px;
 }
 
-
 .highlight-1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #a3a3a3; /* Gris medio más oscuro */
-    letter-spacing: .3em; /* Mayor separación entre las letras */
+    color: #a3a3a3;
+    letter-spacing: .3em;
 }
 
-
 .highlight-2 {
-    color: #9c7d65; /* Beige más fuerte */
+    color: #9c7d65;
 }
 
 .highlight-3 {
-    color: #e0526d; /* Rosa más fuerte */
+    color: #e0526d;
 }
 
 .highlight-4 {
-    color: #4ea47d; /* Verde menta más intenso */
+    color: #4ea47d;
 }
 
 .highlight-5 {
-    color: #ec6f5e; /* Rosa vibrante */
+    color: #ec6f5e;
 }
 
 .highlight-6 {
-    color: #7f97a6; /* Gris más fuerte */
+    color: #7f97a6;
 }
 
 .highlight-7 {
-    color: #f0b932; /* Amarillo vibrante */
+    color: #f0b932;
 }
 
 .highlight-8 {
-    color: #7d4db0; /* Lavanda más intenso */
+    color: #7d4db0;
 }
 
 .highlight-9 {
-    color: #5f90b7; /* Azul más fuerte */
+    color: #5f90b7;
 }
 
 .highlight-10 {
-    color: #c59e4b; /* Beige cálido más intenso */
+    color: #c59e4b;
 }
 
 .tag-swift {
@@ -442,40 +440,49 @@ header {
     object-fit: cover;
 }
 
-
 .highlight-node {
-    background-color: #8cc84b; /* Verde Node.js */
+    background-color: #8cc84b;
     color: white;
     padding: 3px 6px;
     border-radius: 4px;
 }
 
 .highlight-react {
-    background-color: #61dafb; /* Azul claro React */
+    background-color: #61dafb;
     color: black;
     padding: 3px 6px;
     border-radius: 4px;
 }
 
 .highlight-angular {
-    background-color: #dd0031; /* Rojo Angular */
+    background-color: #dd0031;
     color: white;
     padding: 3px 6px;
     border-radius: 4px;
 }
 
 .highlight-android {
-    background-color: #3ddc84; /* Verde Android */
+    background-color: #3ddc84;
     color: black;
     padding: 3px 6px;
     border-radius: 4px;
 }
 
 .highlight-ios {
-    background-color: #000; /* Negro iOS */
+    background-color: #000;
     color: white;
     padding: 3px 6px;
     border-radius: 4px;
 }
 
+.footer-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    letter-spacing: .3em;
+    font-size: 1rem;
+}
 
+.footer-text {
+    font-size: 1rem;
+}
