@@ -1,8 +1,8 @@
 function Home() {
     return (
       <>
-        <img src="./assets/img/profile.jpg" alt="Queralt Sosa Mompel" className="profile-pic" />
-        <br />
+        <br /><br />
+        <h3><span className="highlight-1">About me</span></h3>
         <p className="description">
           My name is Queralt Sosa Mompel. Welcome to my world. In few words I develop software.
           I’ve always been passionate about technology, especially programming.

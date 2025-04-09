@@ -13,7 +13,7 @@ function Skills() {
                     </p>
                 </div>
                 <div className="column">
-                    <img src="./assets/img/apps-development.png" alt="Mobile development image" />
+                    <img src="./assets/img/apps-development.png" alt="Mobile development image" className="skill-img" />
                 </div>
             </div>
 
@@ -21,7 +21,7 @@ function Skills() {
 
             <div className="row">
                 <div className="column">
-                    <img src="./assets/img/web-development.png" alt="Web development image" />
+                    <img src="./assets/img/web-development.png" alt="Web development image" className="skill-img" />
                 </div>
                 <div className="column">
                     <h3><span className="highlight-1">Web development</span></h3>

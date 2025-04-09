@@ -330,9 +330,27 @@ footer {
     font-size: 17px;
 }
 
-header {
-    background-color: #f2f2f2; 
-    padding: 15px 0; 
+.header {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-content {
+    display: inline-block;
+    text-align: center;
+}
+
+.name {
+    font-size: 2rem;  
+    font-weight: bold;
+    margin: 0;
+}
+
+.role-line {
+    font-size: 1rem;  
+    color: #bbb;
 }
 
 .navbar {
