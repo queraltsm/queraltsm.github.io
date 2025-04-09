@@ -1,9 +1,8 @@
 function Footer() {
-  const currentYear = new Date().getFullYear();
-
   return (
     <footer>
-      <p>© {currentYear} Queralt Sosa Mompel — All rights reserved.</p>
+      <h3><span className="highlight-1">Queralt Sosa Mompel</span></h3>
+      <p>Personal website</p>
     </footer>
   );
 }
