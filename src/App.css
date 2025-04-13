@@ -539,10 +539,6 @@ footer {
     color: #333;
 }
 
-.nav-menu a {
-    transition: color 0.3s ease, border-bottom 0.3s ease, padding-bottom 0.3s ease;
-}
-
 .contact-container {
     display: flex;
     justify-content: center; 
