@@ -8,6 +8,8 @@ function Header() {
     useEffect(() => {
         if (location.pathname === '/') {
             setActiveLink('home');
+        } else if (location.pathname === '/projects') {
+            setActiveLink('projects');
         } else if (location.pathname === '/contact') {
             setActiveLink('contact');
         }
@@ -16,12 +18,17 @@ function Header() {
     return (
         <>
             <header className="header">
+            <Link 
+                to="/" 
+                style={{ textDecoration: 'none', color: 'inherit' }}
+                >
                 <div className="header-content">
                     <h1 className="name">Queralt Sosa Mompel</h1>
                     <p className="role-line">
-                        <span className="highlight-1">Software Engineer</span>
+                    <span className="highlight-1">Software Engineer</span>
                     </p>
                 </div>
+                </Link>
             </header>
             <nav className="nav-menu">
                 <ul>
@@ -30,7 +37,15 @@ function Header() {
                             to="/"
                             className={activeLink === 'home' ? 'active' : ''}
                         >
-                            Home
+                            About me
+                        </Link>
+                    </li>
+                    <li>
+                        <Link 
+                            to="/projects"
+                            className={activeLink === 'projects' ? 'active' : ''}
+                        >
+                            Projects
                         </Link>
                     </li>
                     <li>

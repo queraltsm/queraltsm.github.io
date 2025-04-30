@@ -14,7 +14,7 @@ function Contact() {
       <div className="contact-right">
         <h3><span className="highlight-1">Contact me</span></h3>
         <p className="contact-text">
-          Feel free to reach out to me. I’m always open to connecting, collaborating, and exploring new opportunities.
+          I’m always open to connecting, collaborating, and exploring new opportunities.  <br/>Feel free to reach out to me.
         </p>
 
         <div className="social-icons">
