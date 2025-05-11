@@ -1,19 +1,23 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Usar Routes en lugar de Switch
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
+import Blog from './components/Blog';
+import HowToStartCoding from './components/Blog/How-to-Start-Coding';
+import ScrollToTop from './ScrollToTop';  // Importa el componente
 
 function App() {
   return (
     <Router>
       <Header />
+      <ScrollToTop /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/how-to-start-coding" element={<HowToStartCoding/>} />
       </Routes>
       <Footer />
     </Router>

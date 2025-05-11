@@ -10,8 +10,8 @@ function Header() {
             setActiveLink('home');
         } else if (location.pathname === '/projects') {
             setActiveLink('projects');
-        } else if (location.pathname === '/contact') {
-            setActiveLink('contact');
+        } else if (location.pathname === '/blog') {
+            setActiveLink('blog');
         }
     }, [location]);
 
@@ -50,10 +50,10 @@ function Header() {
                     </li>
                     <li>
                         <Link 
-                            to="/contact"
-                            className={activeLink === 'contact' ? 'active' : ''}
+                            to="/blog"
+                            className={activeLink === 'blog' ? 'active' : ''}
                         >
-                            Contact
+                            Blog
                         </Link>
                     </li>
                 </ul>

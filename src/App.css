@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+html {
+  font-family: 'Montserrat', sans-serif;
+}
 
 body {
-    font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
     background-color: #fafafa;
     color: #333;
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
 }
 
 .container {
@@ -28,9 +30,17 @@ h1 {
     color: #325aa8;
 }
 
-.description {
-    font-size: 1em;
+.about-me-description {
+  font-size: 1em;
+  margin: 1em 0;
+  line-height: 1.6;
+  text-align: justify;
+  line-height: 2;
+}
+
+.blog-description {
     margin: 1em 0;
+    font-size: 1em;
     line-height: 1.6;
     text-align: justify;
     line-height: 2;
@@ -92,6 +102,7 @@ h1 {
     text-transform: uppercase;
     color: #a3a3a3;
     letter-spacing: .3em;
+    font-weight: 300;
 }
 
 .highlight-2 {
@@ -161,11 +172,10 @@ h1 {
 
 .social-bar {
     background-color: #f2f2f2;
-    padding: 40px 0; 
+    padding: 20px 0; 
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 30px;
     width: 100%;
     margin: 0 auto; 
 }
@@ -269,13 +279,8 @@ footer {
 .container a {
     text-decoration: none;
     font-size: 16px;
-    color: #e74c3c;
     font-weight: 500;
     transition: color 0.3s ease;
-}
-
-.container a:hover {
-    color: #c0392b;
 }
 
 @keyframes bounce {
@@ -356,9 +361,7 @@ footer {
 
 .footer-title {
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
     color: #a3a3a3;
-    letter-spacing: .3em;
     font-size: 1rem;
 }
 
@@ -393,8 +396,7 @@ footer {
 .nav-menu a {
     text-decoration: none;
     color: #bdbdbd;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 17px;
     padding: 10px 15px;
     position: relative;
     transition: color 0.3s ease, padding 0.3s ease;
@@ -402,6 +404,7 @@ footer {
 
 .nav-menu a.active {
     color: #333;
+    font-weight: 600;
 }
 
 .nav-menu a:hover {
@@ -409,33 +412,20 @@ footer {
 }
 
 .contact-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding: 100px;
-  }
-  
-  .contact-left {
-    flex: 0 1 500px; 
-    display: flex;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+    padding: 10px;
   }
   
   .profile-pic {
-    width: 280px; 
-    height: 280px;
-    border-radius: 50%;
+    width: 300px; 
+    height: 250px;
     object-fit: cover;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-    border: 3px solid #f1f1f1;
   }
-  
-  .contact-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
+
   
   .contact-text {
     font-size: 1rem;
@@ -451,6 +441,15 @@ footer {
     flex-wrap: wrap;
     margin-top: 10px;
   }
+
+  .social-icons a {
+    margin-right: 20px;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
   
   .social-link {
     display: flex;
@@ -549,7 +548,7 @@ footer {
     border: none;
     height: 1px;
     background-color: #ccc; 
-    margin: 100px 0;
+    margin: 50px 0px;
   }
   
 .projects-container {
@@ -629,12 +628,10 @@ h4 {
   
 .projects-call-to-action {
     text-align: center;
-    margin-top: 100px;
   }
   
   .cta-container p {
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
     color: #4a4a4a;
     font-size: 1rem;
     line-height: 1.6;
@@ -661,8 +658,95 @@ h4 {
     display: block;
     margin: 0 auto; 
   }
-  
 
+  .blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .blog-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #4a90e2;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .blog-card {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background-color: #000;
+    border-radius: 8px;
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    border-radius: 8px;
+  }
+  
+  .blog-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.2));
+    border-radius: 8px;
+  }
+  
+  .blog-title-text {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #f0f0f0;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .blog-excerpt {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+  }
+  
+  .blog-read-more {
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    align-self: flex-end;
+  }
+  
+  
   @media (max-width: 768px) {
     .projects-container {
       padding: 10px;
@@ -747,3 +831,77 @@ h4 {
       }
   }
   
+
+.description-container {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.post-header {
+  color: #4a4a4a;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.post-text {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.description-post {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ul-post {
+  list-style: none;
+  padding: 0;
+}
+
+.ul-post li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.ul-post li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 24px;
+  color: #444;
+  line-height: 1;
+}
+
+.post-text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.post-li-title {
+  font-weight: bold;
+  font-weight: 700;
+}
+
+.cover-image {
+  filter: brightness(60%);
+}
+
+.post-a {
+  color: #2471a3; 
+  font-weight: bold !important;
+   text-decoration: none;
+}
