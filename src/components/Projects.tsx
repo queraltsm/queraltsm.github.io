@@ -187,10 +187,10 @@ function Projects() {
           <div className="cta-container">
             <p>
               If you're curious about what else I'm working on, I have a Github
-              account, <br />where I share everything from small ideas to more
+              account <br />where I share everything from small ideas to more
               developed projects.
             </p>
-            for more projects, visit my 
+            for more, visit my 
             <span className="post-li-title">
               <a
                 href="https://github.com/queraltsm"

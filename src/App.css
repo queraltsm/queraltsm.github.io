@@ -416,7 +416,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-    padding: 10px;
+  padding: 10px;
   }
   
   .profile-pic {
@@ -524,12 +524,6 @@ footer {
         width: 240px; 
         height: 240px;
       }
-  
-    .social-icons {
-      flex-direction: column;
-      gap: 10px;
-      align-items: center;
-    }
   
     .row {
         flex-direction: column;
@@ -748,6 +742,7 @@ h4 {
   
   
   @media (max-width: 768px) {
+    
     .projects-container {
       padding: 10px;
     }
@@ -829,6 +824,15 @@ h4 {
       .nav-menu a:hover {
         color: #333;
       }
+
+      .social-bar {
+        padding: 0px; 
+      }
+
+      .contact-container {
+        padding: 20px;
+      }
+
   }
   
 
@@ -897,7 +901,10 @@ h4 {
 }
 
 .cover-image {
-  filter: brightness(60%);
+  width: 100%; 
+  height: auto; 
+  filter: brightness(60%); 
+  object-fit: cover;
 }
 
 .post-a {
@@ -905,3 +912,5 @@ h4 {
   font-weight: bold !important;
    text-decoration: none;
 }
+
+

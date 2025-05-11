@@ -19,8 +19,7 @@ function Blog() {
         is not only mine, but also yours—a place where we can grow together,
         share experiences, and move forward in this exciting world. If you have
         something to share with me or want to discuss any tech-related topic,
-        don't hesitate to contact me through my social media or by email. I’d be
-        happy to hear from you!
+        don't hesitate to contact me through my social media or by email.
       </p>
       <br />
       <br />
