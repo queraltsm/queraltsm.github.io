@@ -1,3 +1,5 @@
+import posts from "../Data/Posts.json";
+
 function HowToStartCoding() {
   return (
     <>
@@ -7,6 +9,9 @@ function HowToStartCoding() {
         <h3>
           <span className="highlight-1">How to Start Coding</span>
         </h3>
+
+        <br />
+
         <div className="description-post">
           Welcome to this wonderful world of programming! Getting started may
           seem like a challenge, but don't worry, you're taking the first step
@@ -16,17 +21,10 @@ function HowToStartCoding() {
           on real projects. I'll share useful resources, practical tips, and
           tricks to help you move forward with confidence.
         </div>
+
         <br />
         <br />
-        <img
-          src="/assets/img/Blog/start-coding.jpg"
-          alt="How to Start Coding"
-          className="cover-image"
-        />
-        <br />
-        <br />
-        <br />
-        <br />
+
         <h4 className="post-header">
           Choose a beginner-friendly programming language to start with
         </h4>
@@ -608,6 +606,14 @@ function HowToStartCoding() {
           </p>
         </p>
         <hr className="separator" />
+        {posts
+          .find((p) => p.id === 1)
+          ?.tags?.split(",")
+          .map((tag, idx) => (
+            <span key={idx} className="tag">
+              {tag.trim()}
+            </span>
+          ))}
       </div>
     </>
   );

@@ -101,7 +101,18 @@ function Projects() {
             educational resources related to Norway. User feedback will be key
             to guiding future updates, and I plan to incorporate new
             technologies and expand the content offering so users can enjoy a
-            more complete and personalized educational experience.{" "}
+            more complete and personalized educational experience. <br />
+            <br />
+            To explore the code, check it out on GitHub:
+            <span className="post-li-title">
+              <a
+                href="https://github.com/queraltsm/Norsk_kulturklubb"
+                target="_blank"
+                className="post-a"
+              >
+                {""} Norskkultuklub Repository
+              </a>
+            </span>
           </p>
         </section>
 
@@ -175,6 +186,114 @@ function Projects() {
             and utility—creating a tool that could potentially support
             healthcare professionals in their day-to-day lives felt like a small
             but meaningful way to contribute.
+            <br />
+            <br />
+            To explore the code, check it out on GitHub:
+            <span className="post-li-title">
+              <a
+                href="https://github.com/queraltsm/Medspace"
+                target="_blank"
+                className="post-a"
+              >
+                {""} Medspace Repository
+              </a>
+            </span>
+          </p>
+        </section>
+
+        <hr className="separator" />
+        <section id="ia-python-course" className="project-block">
+          <h3>
+            <span className="highlight-1">Rain Prediction in Australia</span>
+            <div className="tags-inline">
+              <span className="tag">Python</span>
+              <span className="tag">Keras</span>
+              <span className="tag">TensorFlow</span>
+              <span className="tag">Deep Learning</span>
+            </div>
+          </h3>
+          <h3>
+            Learning Artificial Intelligence from scratch to deep neural
+            networks
+          </h3>
+          <p>
+            This project comes from a hands-on course I completed on Deep
+            Learning with Python. It was a journey through the core concepts of
+            Artificial Intelligence, starting from the basics and advancing all
+            the way to building real-world models using Keras and TensorFlow.
+          </p>
+          <p>
+            It was a fun, practical, and educational experience. I trained
+            models for binary and multi-class classification, build deep neural
+            networks (ANNs) for structured data, work on computer vision tasks
+            using Convolutional Neural Networks (CNNs) to classify grayscale and
+            RGB images, create time series prediction models using Recurrent
+            Neural Networks (RNNs) and LSTMs, and apply unsupervised learning
+            techniques such as autoencoders and clustering. I also practiced key
+            skills such as Exploratory Data Analysis (EDA) and preprocessing,
+            data scaling, normalization, and train/test splitting, as well as
+            model evaluation using accuracy, precision, recall, F1-score, and
+            visualizing training progress with TensorBoard. The most exciting
+            part was seeing how the models actually learned and improved with
+            each training step. It felt like I was building systems that could
+            truly understand data, images, and even time patterns.
+          </p>
+          <br /> <br />
+          <div className="image-container">
+            <img
+              src="/assets/img/ia-course.png"
+              alt="Rain Prediction in Australia"
+            />
+          </div>
+          <br /> <br />
+          <p>
+            In this project, I worked with a real-world weather dataset from
+            Australia (weatherAUS.csv) with the goal of building a predictive
+            model capable of answering a key question: Will it rain tomorrow? To
+            achieve this, I used Python along with libraries like Pandas, NumPy,
+            Matplotlib, and Seaborn to perform a comprehensive Exploratory Data
+            Analysis (EDA). I loaded the dataset, which includes over 20
+            features such as temperature, humidity, pressure, wind direction,
+            cloud cover, and other climate indicators recorded at different
+            times of day. I analyzed the data distribution, identified missing
+            values, studied variable correlations, and explored weather patterns
+            over time. Then, I carried out extensive data cleaning: handling
+            null values, converting categorical variables using encoding, and
+            scaling numerical features. This process prepared a robust and
+            well-structured dataset ready for training machine learning models.
+            <br />
+            <br />
+            Once the data was ready, I moved on to the modeling phase. I applied
+            classification techniques to train models that could accurately
+            predict the target variable RainTomorrow, which indicates whether it
+            will rain the next day. I split the dataset into training and test
+            sets, experimented with different algorithms such as logistic
+            regression, decision trees, and neural networks, and tuned
+            hyperparameters while evaluating model performance using metrics
+            like accuracy, precision, recall, and F1-score. I also visualized
+            the training progress and feature importance to better understand
+            the model's behavior. As a final activity, I developed a more
+            advanced version of the model based on time-series data, using
+            Recurrent Neural Networks (RNNs) and LSTM layers, applied to an XML
+            file containing sequential weather records. This part allowed me to
+            work with temporal prediction, deepen my understanding of structured
+            data formats (both CSV and XML), and apply machine learning theory
+            in a realistic scenario. Overall, this project not only strengthened
+            my knowledge of data science and machine learning, but also equipped
+            me with practical tools to tackle real-world problems related to
+            climate data analysis.
+          </p>
+          <p>
+            To explore the code, check it out on GitHub:
+            <span className="post-li-title">
+              <a
+                href="https://github.com/queraltsm/AI_DeepLearning_Course"
+                target="_blank"
+                className="post-a"
+              >
+                {""} AI with Python and Deep Learning Course Repository
+              </a>
+            </span>
           </p>
         </section>
 
@@ -187,10 +306,11 @@ function Projects() {
           <div className="cta-container">
             <p>
               If you're curious about what else I'm working on, I have a Github
-              account <br />where I share everything, from small ideas to more
-              developed projects.
+              account <br />
+              where I share everything, from small ideas to more developed
+              projects.
             </p>
-            for more, visit my 
+            for more, visit my
             <span className="post-li-title">
               <a
                 href="https://github.com/queraltsm"

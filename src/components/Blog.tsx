@@ -16,7 +16,7 @@ function Blog() {
         reading about technology, and this blog is my way of sharing everything
         I learn. I hope what you find here inspires you to keep exploring,
         learning, and overcoming the challenges technology presents. This space
-        is not only mine, but also yours—a place where we can grow together,
+        is not only mine, but also yours, a place where we can grow together,
         share experiences, and move forward in this exciting world. If you have
         something to share with me or want to discuss any tech-related topic,
         don't hesitate to contact me through my social media or by email.
