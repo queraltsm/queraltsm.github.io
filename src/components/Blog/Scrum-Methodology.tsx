@@ -37,19 +37,18 @@ function ScrumMethodology() {
           focus on what truly brings value to the customer.
         </p>
         <p className="post-text">
-          It was created in the 1990s by <strong>Ken Schwaber</strong> and{" "}
-          <strong>Jeff Sutherland</strong>, two software development experts who
-          realized that traditional methods didn’t work well for complex,
-          fast-changing projects. Inspired by agile manufacturing ideas, they
-          proposed a new way of working based on short cycles, constant
-          feedback, and continuous learning. The name "Scrum" comes from a rugby
-          play where the team moves forward together in a tight formation. That
-          image perfectly reflects the spirit of the framework: the team pushes
-          forward as a unit, well-coordinated and goal-driven. Although Scrum
-          started in software, it’s now used in education, marketing, design,
-          construction, HR, and many other fields. Why? Because its core values
-          are universal: adapt quickly, work as a team, and focus on what really
-          matters.
+          It was created in the 1990s by Ken Schwaber and Jeff Sutherland, two
+          software development experts who realized that traditional methods
+          didn’t work well for complex, fast-changing projects. Inspired by
+          agile manufacturing ideas, they proposed a new way of working based on
+          short cycles, constant feedback, and continuous learning. The name
+          "Scrum" comes from a rugby play where the team moves forward together
+          in a tight formation. That image perfectly reflects the spirit of the
+          framework: the team pushes forward as a unit, well-coordinated and
+          goal-driven. Although Scrum started in software, it’s now used in
+          education, marketing, design, construction, HR, and many other fields.
+          Why? Because its core values are universal: adapt quickly, work as a
+          team, and focus on what really matters.
         </p>
         <p className="post-text">
           One of Scrum’s foundations is its iterative approach. Instead of
